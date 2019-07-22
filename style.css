@@ -1,0 +1,117 @@
+html{
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #303030;
+	color: grey;
+	font-family: 'Questrial', sans-serif;
+}
+
+nav{
+	background: transparent;
+	background-image: none;
+	border-color: transparent;
+	box-shadow: none; 
+	color: white;
+	transition: .5s;
+}
+
+nav.black{
+	background: rgba(0,0,0,.9);
+	height: 80px;
+    padding: 10px 50px;
+}
+
+a.navbar-brand{
+	font-size: 2em; 
+	text-transform: uppercase;
+	font-family: 'Permanent Marker', cursive;
+	color: gold;
+}
+
+nav ul li.active,
+nav ul li:hover  
+{
+	background-color: gold;
+}
+
+#home{
+	background: url(image/bcg.jpeg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text-home{
+	font-family: 'Permanent Marker', cursive;
+	color: gold;
+	font-size: 400%;
+}
+.text-second{
+	color: gold;
+}
+.btn{
+	color: gold;
+	font-size: 25px;
+}
+
+.responsive{
+	width: 100%;
+  	height: auto;
+}
+.responsive-logo{
+	width: 100%;
+	height: auto;
+}
+
+#About{
+	padding-top: 100px;
+}
+
+#gallery{
+	background-color: black;
+	padding-top: 100px;
+}
+
+h2.judul {
+	color: gold;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.fa{
+	color: gold;
+	font-size: 30px;
+}
+ul{
+	padding-left: 0;
+}
+li{
+	list-style-type: none;
+}
+.photo{
+	padding-bottom: 20px;
+}
+.contact-bwh{
+	color: gold;
+	font-size: 25px;
+}
+.contact-bwh:hover{
+	color:grey;
+	font-size: 22px;
+}
+.footer{
+	background-color: black;
+	padding-top: 20px; 
+	padding-bottom: 10px; 
+	color: gold;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.footer a{
+	color: gold;
+	font-size: 20px;
+}
